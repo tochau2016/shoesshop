@@ -628,7 +628,7 @@ iframe {
 .logo {
   display: block;
   position: absolute;
-  left: 52px;
+  left: 50%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -1170,10 +1170,15 @@ li.sale-noti > a {
 
 /* ------------------------------------ */
 .logo2 {
-  display: inline;
+  display: block;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%)
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .logo2 img {
@@ -1196,7 +1201,7 @@ li.sale-noti > a {
 }
 
 .fixed-header2 .header-cart {
-  top: 160%;
+  top: 100%;
 }
 
 .show-fixed-header2 {
@@ -1326,7 +1331,7 @@ li.sale-noti > a {
   margin-left: 320px;
 }
 
-@media (max-width: 992px){
+@media (max-width: 1200px){
   .wrap_header_mobile {
     display: -webkit-box;
     display: -webkit-flex;
